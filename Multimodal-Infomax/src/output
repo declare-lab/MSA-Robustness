@@ -1,0 +1,411 @@
+nohup: ignoring input
+Start loading the data....
+train
+Training data loaded!
+valid
+Validation data loaded!
+test
+Test data loaded!
+Finish loading the data....
+Build Graph:
+	text_enc.bertmodel.embeddings.word_embeddings.weight True
+	text_enc.bertmodel.embeddings.position_embeddings.weight True
+	text_enc.bertmodel.embeddings.token_type_embeddings.weight True
+	text_enc.bertmodel.embeddings.LayerNorm.weight True
+	text_enc.bertmodel.embeddings.LayerNorm.bias True
+	text_enc.bertmodel.encoder.layer.0.attention.self.query.weight True
+	text_enc.bertmodel.encoder.layer.0.attention.self.query.bias True
+	text_enc.bertmodel.encoder.layer.0.attention.self.key.weight True
+	text_enc.bertmodel.encoder.layer.0.attention.self.key.bias True
+	text_enc.bertmodel.encoder.layer.0.attention.self.value.weight True
+	text_enc.bertmodel.encoder.layer.0.attention.self.value.bias True
+	text_enc.bertmodel.encoder.layer.0.attention.output.dense.weight True
+	text_enc.bertmodel.encoder.layer.0.attention.output.dense.bias True
+	text_enc.bertmodel.encoder.layer.0.attention.output.LayerNorm.weight True
+	text_enc.bertmodel.encoder.layer.0.attention.output.LayerNorm.bias True
+	text_enc.bertmodel.encoder.layer.0.intermediate.dense.weight True
+	text_enc.bertmodel.encoder.layer.0.intermediate.dense.bias True
+	text_enc.bertmodel.encoder.layer.0.output.dense.weight True
+	text_enc.bertmodel.encoder.layer.0.output.dense.bias True
+	text_enc.bertmodel.encoder.layer.0.output.LayerNorm.weight True
+	text_enc.bertmodel.encoder.layer.0.output.LayerNorm.bias True
+	text_enc.bertmodel.encoder.layer.1.attention.self.query.weight True
+	text_enc.bertmodel.encoder.layer.1.attention.self.query.bias True
+	text_enc.bertmodel.encoder.layer.1.attention.self.key.weight True
+	text_enc.bertmodel.encoder.layer.1.attention.self.key.bias True
+	text_enc.bertmodel.encoder.layer.1.attention.self.value.weight True
+	text_enc.bertmodel.encoder.layer.1.attention.self.value.bias True
+	text_enc.bertmodel.encoder.layer.1.attention.output.dense.weight True
+	text_enc.bertmodel.encoder.layer.1.attention.output.dense.bias True
+	text_enc.bertmodel.encoder.layer.1.attention.output.LayerNorm.weight True
+	text_enc.bertmodel.encoder.layer.1.attention.output.LayerNorm.bias True
+	text_enc.bertmodel.encoder.layer.1.intermediate.dense.weight True
+	text_enc.bertmodel.encoder.layer.1.intermediate.dense.bias True
+	text_enc.bertmodel.encoder.layer.1.output.dense.weight True
+	text_enc.bertmodel.encoder.layer.1.output.dense.bias True
+	text_enc.bertmodel.encoder.layer.1.output.LayerNorm.weight True
+	text_enc.bertmodel.encoder.layer.1.output.LayerNorm.bias True
+	text_enc.bertmodel.encoder.layer.2.attention.self.query.weight True
+	text_enc.bertmodel.encoder.layer.2.attention.self.query.bias True
+	text_enc.bertmodel.encoder.layer.2.attention.self.key.weight True
+	text_enc.bertmodel.encoder.layer.2.attention.self.key.bias True
+	text_enc.bertmodel.encoder.layer.2.attention.self.value.weight True
+	text_enc.bertmodel.encoder.layer.2.attention.self.value.bias True
+	text_enc.bertmodel.encoder.layer.2.attention.output.dense.weight True
+	text_enc.bertmodel.encoder.layer.2.attention.output.dense.bias True
+	text_enc.bertmodel.encoder.layer.2.attention.output.LayerNorm.weight True
+	text_enc.bertmodel.encoder.layer.2.attention.output.LayerNorm.bias True
+	text_enc.bertmodel.encoder.layer.2.intermediate.dense.weight True
+	text_enc.bertmodel.encoder.layer.2.intermediate.dense.bias True
+	text_enc.bertmodel.encoder.layer.2.output.dense.weight True
+	text_enc.bertmodel.encoder.layer.2.output.dense.bias True
+	text_enc.bertmodel.encoder.layer.2.output.LayerNorm.weight True
+	text_enc.bertmodel.encoder.layer.2.output.LayerNorm.bias True
+	text_enc.bertmodel.encoder.layer.3.attention.self.query.weight True
+	text_enc.bertmodel.encoder.layer.3.attention.self.query.bias True
+	text_enc.bertmodel.encoder.layer.3.attention.self.key.weight True
+	text_enc.bertmodel.encoder.layer.3.attention.self.key.bias True
+	text_enc.bertmodel.encoder.layer.3.attention.self.value.weight True
+	text_enc.bertmodel.encoder.layer.3.attention.self.value.bias True
+	text_enc.bertmodel.encoder.layer.3.attention.output.dense.weight True
+	text_enc.bertmodel.encoder.layer.3.attention.output.dense.bias True
+	text_enc.bertmodel.encoder.layer.3.attention.output.LayerNorm.weight True
+	text_enc.bertmodel.encoder.layer.3.attention.output.LayerNorm.bias True
+	text_enc.bertmodel.encoder.layer.3.intermediate.dense.weight True
+	text_enc.bertmodel.encoder.layer.3.intermediate.dense.bias True
+	text_enc.bertmodel.encoder.layer.3.output.dense.weight True
+	text_enc.bertmodel.encoder.layer.3.output.dense.bias True
+	text_enc.bertmodel.encoder.layer.3.output.LayerNorm.weight True
+	text_enc.bertmodel.encoder.layer.3.output.LayerNorm.bias True
+	text_enc.bertmodel.encoder.layer.4.attention.self.query.weight True
+	text_enc.bertmodel.encoder.layer.4.attention.self.query.bias True
+	text_enc.bertmodel.encoder.layer.4.attention.self.key.weight True
+	text_enc.bertmodel.encoder.layer.4.attention.self.key.bias True
+	text_enc.bertmodel.encoder.layer.4.attention.self.value.weight True
+	text_enc.bertmodel.encoder.layer.4.attention.self.value.bias True
+	text_enc.bertmodel.encoder.layer.4.attention.output.dense.weight True
+	text_enc.bertmodel.encoder.layer.4.attention.output.dense.bias True
+	text_enc.bertmodel.encoder.layer.4.attention.output.LayerNorm.weight True
+	text_enc.bertmodel.encoder.layer.4.attention.output.LayerNorm.bias True
+	text_enc.bertmodel.encoder.layer.4.intermediate.dense.weight True
+	text_enc.bertmodel.encoder.layer.4.intermediate.dense.bias True
+	text_enc.bertmodel.encoder.layer.4.output.dense.weight True
+	text_enc.bertmodel.encoder.layer.4.output.dense.bias True
+	text_enc.bertmodel.encoder.layer.4.output.LayerNorm.weight True
+	text_enc.bertmodel.encoder.layer.4.output.LayerNorm.bias True
+	text_enc.bertmodel.encoder.layer.5.attention.self.query.weight True
+	text_enc.bertmodel.encoder.layer.5.attention.self.query.bias True
+	text_enc.bertmodel.encoder.layer.5.attention.self.key.weight True
+	text_enc.bertmodel.encoder.layer.5.attention.self.key.bias True
+	text_enc.bertmodel.encoder.layer.5.attention.self.value.weight True
+	text_enc.bertmodel.encoder.layer.5.attention.self.value.bias True
+	text_enc.bertmodel.encoder.layer.5.attention.output.dense.weight True
+	text_enc.bertmodel.encoder.layer.5.attention.output.dense.bias True
+	text_enc.bertmodel.encoder.layer.5.attention.output.LayerNorm.weight True
+	text_enc.bertmodel.encoder.layer.5.attention.output.LayerNorm.bias True
+	text_enc.bertmodel.encoder.layer.5.intermediate.dense.weight True
+	text_enc.bertmodel.encoder.layer.5.intermediate.dense.bias True
+	text_enc.bertmodel.encoder.layer.5.output.dense.weight True
+	text_enc.bertmodel.encoder.layer.5.output.dense.bias True
+	text_enc.bertmodel.encoder.layer.5.output.LayerNorm.weight True
+	text_enc.bertmodel.encoder.layer.5.output.LayerNorm.bias True
+	text_enc.bertmodel.encoder.layer.6.attention.self.query.weight True
+	text_enc.bertmodel.encoder.layer.6.attention.self.query.bias True
+	text_enc.bertmodel.encoder.layer.6.attention.self.key.weight True
+	text_enc.bertmodel.encoder.layer.6.attention.self.key.bias True
+	text_enc.bertmodel.encoder.layer.6.attention.self.value.weight True
+	text_enc.bertmodel.encoder.layer.6.attention.self.value.bias True
+	text_enc.bertmodel.encoder.layer.6.attention.output.dense.weight True
+	text_enc.bertmodel.encoder.layer.6.attention.output.dense.bias True
+	text_enc.bertmodel.encoder.layer.6.attention.output.LayerNorm.weight True
+	text_enc.bertmodel.encoder.layer.6.attention.output.LayerNorm.bias True
+	text_enc.bertmodel.encoder.layer.6.intermediate.dense.weight True
+	text_enc.bertmodel.encoder.layer.6.intermediate.dense.bias True
+	text_enc.bertmodel.encoder.layer.6.output.dense.weight True
+	text_enc.bertmodel.encoder.layer.6.output.dense.bias True
+	text_enc.bertmodel.encoder.layer.6.output.LayerNorm.weight True
+	text_enc.bertmodel.encoder.layer.6.output.LayerNorm.bias True
+	text_enc.bertmodel.encoder.layer.7.attention.self.query.weight True
+	text_enc.bertmodel.encoder.layer.7.attention.self.query.bias True
+	text_enc.bertmodel.encoder.layer.7.attention.self.key.weight True
+	text_enc.bertmodel.encoder.layer.7.attention.self.key.bias True
+	text_enc.bertmodel.encoder.layer.7.attention.self.value.weight True
+	text_enc.bertmodel.encoder.layer.7.attention.self.value.bias True
+	text_enc.bertmodel.encoder.layer.7.attention.output.dense.weight True
+	text_enc.bertmodel.encoder.layer.7.attention.output.dense.bias True
+	text_enc.bertmodel.encoder.layer.7.attention.output.LayerNorm.weight True
+	text_enc.bertmodel.encoder.layer.7.attention.output.LayerNorm.bias True
+	text_enc.bertmodel.encoder.layer.7.intermediate.dense.weight True
+	text_enc.bertmodel.encoder.layer.7.intermediate.dense.bias True
+	text_enc.bertmodel.encoder.layer.7.output.dense.weight True
+	text_enc.bertmodel.encoder.layer.7.output.dense.bias True
+	text_enc.bertmodel.encoder.layer.7.output.LayerNorm.weight True
+	text_enc.bertmodel.encoder.layer.7.output.LayerNorm.bias True
+	text_enc.bertmodel.encoder.layer.8.attention.self.query.weight True
+	text_enc.bertmodel.encoder.layer.8.attention.self.query.bias True
+	text_enc.bertmodel.encoder.layer.8.attention.self.key.weight True
+	text_enc.bertmodel.encoder.layer.8.attention.self.key.bias True
+	text_enc.bertmodel.encoder.layer.8.attention.self.value.weight True
+	text_enc.bertmodel.encoder.layer.8.attention.self.value.bias True
+	text_enc.bertmodel.encoder.layer.8.attention.output.dense.weight True
+	text_enc.bertmodel.encoder.layer.8.attention.output.dense.bias True
+	text_enc.bertmodel.encoder.layer.8.attention.output.LayerNorm.weight True
+	text_enc.bertmodel.encoder.layer.8.attention.output.LayerNorm.bias True
+	text_enc.bertmodel.encoder.layer.8.intermediate.dense.weight True
+	text_enc.bertmodel.encoder.layer.8.intermediate.dense.bias True
+	text_enc.bertmodel.encoder.layer.8.output.dense.weight True
+	text_enc.bertmodel.encoder.layer.8.output.dense.bias True
+	text_enc.bertmodel.encoder.layer.8.output.LayerNorm.weight True
+	text_enc.bertmodel.encoder.layer.8.output.LayerNorm.bias True
+	text_enc.bertmodel.encoder.layer.9.attention.self.query.weight True
+	text_enc.bertmodel.encoder.layer.9.attention.self.query.bias True
+	text_enc.bertmodel.encoder.layer.9.attention.self.key.weight True
+	text_enc.bertmodel.encoder.layer.9.attention.self.key.bias True
+	text_enc.bertmodel.encoder.layer.9.attention.self.value.weight True
+	text_enc.bertmodel.encoder.layer.9.attention.self.value.bias True
+	text_enc.bertmodel.encoder.layer.9.attention.output.dense.weight True
+	text_enc.bertmodel.encoder.layer.9.attention.output.dense.bias True
+	text_enc.bertmodel.encoder.layer.9.attention.output.LayerNorm.weight True
+	text_enc.bertmodel.encoder.layer.9.attention.output.LayerNorm.bias True
+	text_enc.bertmodel.encoder.layer.9.intermediate.dense.weight True
+	text_enc.bertmodel.encoder.layer.9.intermediate.dense.bias True
+	text_enc.bertmodel.encoder.layer.9.output.dense.weight True
+	text_enc.bertmodel.encoder.layer.9.output.dense.bias True
+	text_enc.bertmodel.encoder.layer.9.output.LayerNorm.weight True
+	text_enc.bertmodel.encoder.layer.9.output.LayerNorm.bias True
+	text_enc.bertmodel.encoder.layer.10.attention.self.query.weight True
+	text_enc.bertmodel.encoder.layer.10.attention.self.query.bias True
+	text_enc.bertmodel.encoder.layer.10.attention.self.key.weight True
+	text_enc.bertmodel.encoder.layer.10.attention.self.key.bias True
+	text_enc.bertmodel.encoder.layer.10.attention.self.value.weight True
+	text_enc.bertmodel.encoder.layer.10.attention.self.value.bias True
+	text_enc.bertmodel.encoder.layer.10.attention.output.dense.weight True
+	text_enc.bertmodel.encoder.layer.10.attention.output.dense.bias True
+	text_enc.bertmodel.encoder.layer.10.attention.output.LayerNorm.weight True
+	text_enc.bertmodel.encoder.layer.10.attention.output.LayerNorm.bias True
+	text_enc.bertmodel.encoder.layer.10.intermediate.dense.weight True
+	text_enc.bertmodel.encoder.layer.10.intermediate.dense.bias True
+	text_enc.bertmodel.encoder.layer.10.output.dense.weight True
+	text_enc.bertmodel.encoder.layer.10.output.dense.bias True
+	text_enc.bertmodel.encoder.layer.10.output.LayerNorm.weight True
+	text_enc.bertmodel.encoder.layer.10.output.LayerNorm.bias True
+	text_enc.bertmodel.encoder.layer.11.attention.self.query.weight True
+	text_enc.bertmodel.encoder.layer.11.attention.self.query.bias True
+	text_enc.bertmodel.encoder.layer.11.attention.self.key.weight True
+	text_enc.bertmodel.encoder.layer.11.attention.self.key.bias True
+	text_enc.bertmodel.encoder.layer.11.attention.self.value.weight True
+	text_enc.bertmodel.encoder.layer.11.attention.self.value.bias True
+	text_enc.bertmodel.encoder.layer.11.attention.output.dense.weight True
+	text_enc.bertmodel.encoder.layer.11.attention.output.dense.bias True
+	text_enc.bertmodel.encoder.layer.11.attention.output.LayerNorm.weight True
+	text_enc.bertmodel.encoder.layer.11.attention.output.LayerNorm.bias True
+	text_enc.bertmodel.encoder.layer.11.intermediate.dense.weight True
+	text_enc.bertmodel.encoder.layer.11.intermediate.dense.bias True
+	text_enc.bertmodel.encoder.layer.11.output.dense.weight True
+	text_enc.bertmodel.encoder.layer.11.output.dense.bias True
+	text_enc.bertmodel.encoder.layer.11.output.LayerNorm.weight True
+	text_enc.bertmodel.encoder.layer.11.output.LayerNorm.bias True
+	text_enc.bertmodel.pooler.dense.weight True
+	text_enc.bertmodel.pooler.dense.bias True
+	visual_enc.rnn.weight_ih_l0 True
+	visual_enc.rnn.weight_hh_l0 True
+	visual_enc.rnn.bias_ih_l0 True
+	visual_enc.rnn.bias_hh_l0 True
+	visual_enc.linear_1.weight True
+	visual_enc.linear_1.bias True
+	acoustic_enc.rnn.weight_ih_l0 True
+	acoustic_enc.rnn.weight_hh_l0 True
+	acoustic_enc.rnn.bias_ih_l0 True
+	acoustic_enc.rnn.bias_hh_l0 True
+	acoustic_enc.linear_1.weight True
+	acoustic_enc.linear_1.bias True
+	mi_tv.mlp_mu.0.weight True
+	mi_tv.mlp_mu.0.bias True
+	mi_tv.mlp_mu.2.weight True
+	mi_tv.mlp_mu.2.bias True
+	mi_tv.mlp_logvar.0.weight True
+	mi_tv.mlp_logvar.0.bias True
+	mi_tv.mlp_logvar.2.weight True
+	mi_tv.mlp_logvar.2.bias True
+	mi_tv.entropy_prj.0.weight True
+	mi_tv.entropy_prj.0.bias True
+	mi_ta.mlp_mu.0.weight True
+	mi_ta.mlp_mu.0.bias True
+	mi_ta.mlp_mu.2.weight True
+	mi_ta.mlp_mu.2.bias True
+	mi_ta.mlp_logvar.0.weight True
+	mi_ta.mlp_logvar.0.bias True
+	mi_ta.mlp_logvar.2.weight True
+	mi_ta.mlp_logvar.2.bias True
+	mi_ta.entropy_prj.0.weight True
+	mi_ta.entropy_prj.0.bias True
+	cpc_zt.net.weight True
+	cpc_zt.net.bias True
+	cpc_zv.net.weight True
+	cpc_zv.net.bias True
+	cpc_za.net.weight True
+	cpc_za.net.bias True
+	fusion_prj.linear_1.weight True
+	fusion_prj.linear_1.bias True
+	fusion_prj.linear_2.weight True
+	fusion_prj.linear_2.bias True
+	fusion_prj.linear_3.weight True
+	fusion_prj.linear_3.bias True
+Epoch  1 | Batch 100/255 | Time/Batch(ms) 318.15 | Train Loss (Neg-lld) 3.8544 | NCE 4.156 | BA 3.8544
+Epoch  1 | Batch 100/255 | Time/Batch(ms) 370.41 | Train Loss (TASK+BA+CPC) 1.7051 | NCE 4.006 | BA 12.6300
+Epoch  1 | Batch 200/255 | Time/Batch(ms) 369.39 | Train Loss (TASK+BA+CPC) 1.4413 | NCE 3.758 | BA 9.4371
+--------------------------------------------------
+Epoch  1 | Time 145.2010 sec | Valid Loss 0.5560 | Test Loss 0.5778
+--------------------------------------------------
+mae:  0.57777905
+corr:  0.7355032991448317
+mult_acc:  0.5095514058810904
+Classification Report (pos/neg) :
+              precision    recall  f1-score   support
+
+       False    0.83540   0.69926   0.76129      1350
+        True    0.83786   0.91856   0.87636      2284
+
+    accuracy                        0.83709      3634
+   macro avg    0.83663   0.80891   0.81882      3634
+weighted avg    0.83695   0.83709   0.83361      3634
+
+Accuracy (pos/neg)  0.837094111172262
+Classification Report (non-neg/neg) :
+              precision    recall  f1-score   support
+
+       False    0.72337   0.69926   0.71111      1350
+        True    0.87895   0.89090   0.88489      3309
+
+    accuracy                        0.83537      4659
+   macro avg    0.80116   0.79508   0.79800      4659
+weighted avg    0.83387   0.83537   0.83453      4659
+
+Accuracy (non-neg/neg)  0.8353723975101953
+Saved model at pre_trained_models/MM.pt!
+-------------------------save_dir
+pre_trained_models/mosei/best_0%L=N/
+Epoch  2 | Batch 100/255 | Time/Batch(ms) 324.17 | Train Loss (Neg-lld) 1.0408 | NCE 3.612 | BA 1.0408
+Epoch  2 | Batch 100/255 | Time/Batch(ms) 373.00 | Train Loss (TASK+BA+CPC) 1.3030 | NCE 3.589 | BA 8.8160
+Epoch  2 | Batch 200/255 | Time/Batch(ms) 373.27 | Train Loss (TASK+BA+CPC) 1.2792 | NCE 3.548 | BA 8.1847
+--------------------------------------------------
+Epoch  2 | Time 146.5288 sec | Valid Loss 0.5153 | Test Loss 0.5461
+--------------------------------------------------
+mae:  0.54611665
+corr:  0.7486445347596612
+mult_acc:  0.5312298776561494
+Classification Report (pos/neg) :
+              precision    recall  f1-score   support
+
+       False    0.82015   0.72963   0.77225      1350
+        True    0.84998   0.90543   0.87683      2284
+
+    accuracy                        0.84012      3634
+   macro avg    0.83506   0.81753   0.82454      3634
+weighted avg    0.83890   0.84012   0.83798      3634
+
+Accuracy (pos/neg)  0.8401210787011557
+Classification Report (non-neg/neg) :
+              precision    recall  f1-score   support
+
+       False    0.65579   0.72963   0.69074      1350
+        True    0.88438   0.84376   0.86359      3309
+
+    accuracy                        0.81069      4659
+   macro avg    0.77009   0.78669   0.77717      4659
+weighted avg    0.81815   0.81069   0.81351      4659
+
+Accuracy (non-neg/neg)  0.810688989053445
+Saved model at pre_trained_models/MM.pt!
+-------------------------save_dir
+pre_trained_models/mosei/best_0%L=N/
+Epoch  3 | Batch 100/255 | Time/Batch(ms) 321.23 | Train Loss (Neg-lld) 1.3702 | NCE 3.512 | BA 1.3702
+Epoch  3 | Batch 100/255 | Time/Batch(ms) 367.24 | Train Loss (TASK+BA+CPC) 1.2815 | NCE 3.508 | BA 9.6660
+Epoch  3 | Batch 200/255 | Time/Batch(ms) 372.17 | Train Loss (TASK+BA+CPC) 1.2762 | NCE 3.492 | BA 9.5015
+--------------------------------------------------
+Epoch  3 | Time 145.9882 sec | Valid Loss 0.5456 | Test Loss 0.5739
+--------------------------------------------------
+Epoch  4 | Batch 100/255 | Time/Batch(ms) 324.10 | Train Loss (Neg-lld) 1.6046 | NCE 3.502 | BA 1.6046
+Epoch  4 | Batch 100/255 | Time/Batch(ms) 370.67 | Train Loss (TASK+BA+CPC) 1.3109 | NCE 3.466 | BA 11.5714
+Epoch  4 | Batch 200/255 | Time/Batch(ms) 369.17 | Train Loss (TASK+BA+CPC) 1.3184 | NCE 3.451 | BA 11.5220
+--------------------------------------------------
+Epoch  4 | Time 145.9510 sec | Valid Loss 0.5611 | Test Loss 0.5692
+--------------------------------------------------
+Epoch  5 | Batch 100/255 | Time/Batch(ms) 323.86 | Train Loss (Neg-lld) 1.7134 | NCE 3.433 | BA 1.7134
+Epoch  5 | Batch 100/255 | Time/Batch(ms) 368.28 | Train Loss (TASK+BA+CPC) 1.3926 | NCE 3.436 | BA 13.9170
+Epoch  5 | Batch 200/255 | Time/Batch(ms) 374.13 | Train Loss (TASK+BA+CPC) 1.4015 | NCE 3.436 | BA 13.9255
+--------------------------------------------------
+Epoch  5 | Time 146.3344 sec | Valid Loss 0.6214 | Test Loss 0.6360
+--------------------------------------------------
+Epoch  6 | Batch 100/255 | Time/Batch(ms) 317.08 | Train Loss (Neg-lld) 1.8016 | NCE 3.417 | BA 1.8016
+Epoch  6 | Batch 100/255 | Time/Batch(ms) 370.17 | Train Loss (TASK+BA+CPC) 1.4877 | NCE 3.424 | BA 16.6110
+Epoch  6 | Batch 200/255 | Time/Batch(ms) 368.98 | Train Loss (TASK+BA+CPC) 1.5046 | NCE 3.420 | BA 16.6937
+--------------------------------------------------
+Epoch  6 | Time 145.7662 sec | Valid Loss 0.5383 | Test Loss 0.5517
+--------------------------------------------------
+Epoch  7 | Batch 100/255 | Time/Batch(ms) 322.85 | Train Loss (Neg-lld) 1.8571 | NCE 3.430 | BA 1.8571
+Epoch  7 | Batch 100/255 | Time/Batch(ms) 371.14 | Train Loss (TASK+BA+CPC) 1.5937 | NCE 3.409 | BA 19.6925
+Epoch  7 | Batch 200/255 | Time/Batch(ms) 372.47 | Train Loss (TASK+BA+CPC) 1.6264 | NCE 3.400 | BA 19.7921
+--------------------------------------------------
+Epoch  7 | Time 146.6429 sec | Valid Loss 0.5547 | Test Loss 0.5599
+--------------------------------------------------
+Epoch  8 | Batch 100/255 | Time/Batch(ms) 325.39 | Train Loss (Neg-lld) 1.8864 | NCE 3.395 | BA 1.8864
+Epoch  8 | Batch 100/255 | Time/Batch(ms) 371.92 | Train Loss (TASK+BA+CPC) 1.7468 | NCE 3.392 | BA 23.1338
+Epoch  8 | Batch 200/255 | Time/Batch(ms) 372.15 | Train Loss (TASK+BA+CPC) 1.7606 | NCE 3.387 | BA 23.2537
+--------------------------------------------------
+Epoch  8 | Time 146.7411 sec | Valid Loss 0.5570 | Test Loss 0.5688
+--------------------------------------------------
+Epoch  9 | Batch 100/255 | Time/Batch(ms) 321.22 | Train Loss (Neg-lld) 1.9188 | NCE 3.385 | BA 1.9188
+Epoch  9 | Batch 100/255 | Time/Batch(ms) 375.05 | Train Loss (TASK+BA+CPC) 1.8959 | NCE 3.382 | BA 27.0187
+Epoch  9 | Batch 200/255 | Time/Batch(ms) 369.92 | Train Loss (TASK+BA+CPC) 1.9103 | NCE 3.377 | BA 27.1219
+--------------------------------------------------
+Epoch  9 | Time 146.5508 sec | Valid Loss 0.5402 | Test Loss 0.5537
+--------------------------------------------------
+Epoch 10 | Batch 100/255 | Time/Batch(ms) 326.75 | Train Loss (Neg-lld) 1.8900 | NCE 3.381 | BA 1.8900
+Epoch 10 | Batch 100/255 | Time/Batch(ms) 371.10 | Train Loss (TASK+BA+CPC) 2.0954 | NCE 3.380 | BA 31.4064
+Epoch 10 | Batch 200/255 | Time/Batch(ms) 369.03 | Train Loss (TASK+BA+CPC) 2.0998 | NCE 3.372 | BA 31.4373
+--------------------------------------------------
+Epoch 10 | Time 146.3755 sec | Valid Loss 0.5501 | Test Loss 0.5588
+--------------------------------------------------
+Epoch 11 | Batch 100/255 | Time/Batch(ms) 321.47 | Train Loss (Neg-lld) 1.8035 | NCE 3.377 | BA 1.8035
+Epoch 11 | Batch 100/255 | Time/Batch(ms) 367.29 | Train Loss (TASK+BA+CPC) 2.3764 | NCE 3.429 | BA 36.5060
+Epoch 11 | Batch 200/255 | Time/Batch(ms) 365.95 | Train Loss (TASK+BA+CPC) 2.3641 | NCE 3.379 | BA 36.5609
+--------------------------------------------------
+Epoch 11 | Time 145.5028 sec | Valid Loss 0.5646 | Test Loss 0.5701
+--------------------------------------------------
+Epoch 12 | Batch 100/255 | Time/Batch(ms) 323.89 | Train Loss (Neg-lld) 1.5551 | NCE 3.386 | BA 1.5551
+Epoch 12 | Batch 100/255 | Time/Batch(ms) 374.15 | Train Loss (TASK+BA+CPC) 2.7850 | NCE 3.804 | BA 42.0697
+Epoch 12 | Batch 200/255 | Time/Batch(ms) 371.09 | Train Loss (TASK+BA+CPC) 2.7548 | NCE 3.682 | BA 42.4556
+--------------------------------------------------
+Epoch 12 | Time 146.6499 sec | Valid Loss 0.5812 | Test Loss 0.5823
+--------------------------------------------------
+Best epoch: 2
+mae:  0.54611665
+corr:  0.7486445347596612
+mult_acc:  0.5312298776561494
+Classification Report (pos/neg) :
+              precision    recall  f1-score   support
+
+       False    0.82015   0.72963   0.77225      1350
+        True    0.84998   0.90543   0.87683      2284
+
+    accuracy                        0.84012      3634
+   macro avg    0.83506   0.81753   0.82454      3634
+weighted avg    0.83890   0.84012   0.83798      3634
+
+Accuracy (pos/neg)  0.8401210787011557
+Classification Report (non-neg/neg) :
+              precision    recall  f1-score   support
+
+       False    0.65579   0.72963   0.69074      1350
+        True    0.88438   0.84376   0.86359      3309
+
+    accuracy                        0.81069      4659
+   macro avg    0.77009   0.78669   0.77717      4659
+weighted avg    0.81815   0.81069   0.81351      4659
+
+Accuracy (non-neg/neg)  0.810688989053445
+/home/yingting/Multimodal-Infomax/src/solver.py:199: UserWarning: Anomaly Detection has been enabled. This mode will increase the runtime and should only be enabled for debugging.
+  with autograd.detect_anomaly():
+/home/yingting/Multimodal-Infomax/src/solver.py:186: UserWarning: Anomaly Detection has been enabled. This mode will increase the runtime and should only be enabled for debugging.
+  with autograd.detect_anomaly():

@@ -1,0 +1,423 @@
+nohup: ignoring input
+mosi
+mosi
+mosi
+Configurations
+{'activation': <class 'torch.nn.modules.activation.ReLU'>,
+ 'batch_size': 64,
+ 'clip': 1.0,
+ 'data': 'mosi',
+ 'data_dir': PosixPath('/home/yingting/Datasets/MOSI'),
+ 'dataset_dir': PosixPath('/home/yingting/Datasets/MOSI'),
+ 'diff_weight': 0.3,
+ 'dropout': 0.5,
+ 'embedding_size': 300,
+ 'eval_batch_size': 10,
+ 'hidden_size': 128,
+ 'learning_rate': 0.0001,
+ 'mode': 'train',
+ 'model': 'MISA',
+ 'n_epoch': 500,
+ 'name': '2021-11-14_00:02:34',
+ 'num_classes': 1,
+ 'optimizer': <class 'torch.optim.adam.Adam'>,
+ 'patience': 6,
+ 'recon_weight': 1.0,
+ 'reverse_grad_weight': 1.0,
+ 'rnncell': 'lstm',
+ 'runs': 5,
+ 'sdk_dir': PosixPath('/home/yingting/MISA/CMU-MultimodalSDK'),
+ 'sim_weight': 1.0,
+ 'sp_weight': 0.0,
+ 'use_bert': True,
+ 'use_cmd_sim': True,
+ 'word_emb_path': '/home/yingting/Glove/glove.840B.300d.txt'}
+train
+dev
+test
+Build Graph
+	bertmodel.embeddings.word_embeddings.weight True
+	bertmodel.embeddings.position_embeddings.weight True
+	bertmodel.embeddings.token_type_embeddings.weight True
+	bertmodel.embeddings.LayerNorm.weight True
+	bertmodel.embeddings.LayerNorm.bias True
+	bertmodel.encoder.layer.0.attention.self.query.weight True
+	bertmodel.encoder.layer.0.attention.self.query.bias True
+	bertmodel.encoder.layer.0.attention.self.key.weight True
+	bertmodel.encoder.layer.0.attention.self.key.bias True
+	bertmodel.encoder.layer.0.attention.self.value.weight True
+	bertmodel.encoder.layer.0.attention.self.value.bias True
+	bertmodel.encoder.layer.0.attention.output.dense.weight True
+	bertmodel.encoder.layer.0.attention.output.dense.bias True
+	bertmodel.encoder.layer.0.attention.output.LayerNorm.weight True
+	bertmodel.encoder.layer.0.attention.output.LayerNorm.bias True
+	bertmodel.encoder.layer.0.intermediate.dense.weight True
+	bertmodel.encoder.layer.0.intermediate.dense.bias True
+	bertmodel.encoder.layer.0.output.dense.weight True
+	bertmodel.encoder.layer.0.output.dense.bias True
+	bertmodel.encoder.layer.0.output.LayerNorm.weight True
+	bertmodel.encoder.layer.0.output.LayerNorm.bias True
+	bertmodel.encoder.layer.1.attention.self.query.weight True
+	bertmodel.encoder.layer.1.attention.self.query.bias True
+	bertmodel.encoder.layer.1.attention.self.key.weight True
+	bertmodel.encoder.layer.1.attention.self.key.bias True
+	bertmodel.encoder.layer.1.attention.self.value.weight True
+	bertmodel.encoder.layer.1.attention.self.value.bias True
+	bertmodel.encoder.layer.1.attention.output.dense.weight True
+	bertmodel.encoder.layer.1.attention.output.dense.bias True
+	bertmodel.encoder.layer.1.attention.output.LayerNorm.weight True
+	bertmodel.encoder.layer.1.attention.output.LayerNorm.bias True
+	bertmodel.encoder.layer.1.intermediate.dense.weight True
+	bertmodel.encoder.layer.1.intermediate.dense.bias True
+	bertmodel.encoder.layer.1.output.dense.weight True
+	bertmodel.encoder.layer.1.output.dense.bias True
+	bertmodel.encoder.layer.1.output.LayerNorm.weight True
+	bertmodel.encoder.layer.1.output.LayerNorm.bias True
+	bertmodel.encoder.layer.2.attention.self.query.weight True
+	bertmodel.encoder.layer.2.attention.self.query.bias True
+	bertmodel.encoder.layer.2.attention.self.key.weight True
+	bertmodel.encoder.layer.2.attention.self.key.bias True
+	bertmodel.encoder.layer.2.attention.self.value.weight True
+	bertmodel.encoder.layer.2.attention.self.value.bias True
+	bertmodel.encoder.layer.2.attention.output.dense.weight True
+	bertmodel.encoder.layer.2.attention.output.dense.bias True
+	bertmodel.encoder.layer.2.attention.output.LayerNorm.weight True
+	bertmodel.encoder.layer.2.attention.output.LayerNorm.bias True
+	bertmodel.encoder.layer.2.intermediate.dense.weight True
+	bertmodel.encoder.layer.2.intermediate.dense.bias True
+	bertmodel.encoder.layer.2.output.dense.weight True
+	bertmodel.encoder.layer.2.output.dense.bias True
+	bertmodel.encoder.layer.2.output.LayerNorm.weight True
+	bertmodel.encoder.layer.2.output.LayerNorm.bias True
+	bertmodel.encoder.layer.3.attention.self.query.weight True
+	bertmodel.encoder.layer.3.attention.self.query.bias True
+	bertmodel.encoder.layer.3.attention.self.key.weight True
+	bertmodel.encoder.layer.3.attention.self.key.bias True
+	bertmodel.encoder.layer.3.attention.self.value.weight True
+	bertmodel.encoder.layer.3.attention.self.value.bias True
+	bertmodel.encoder.layer.3.attention.output.dense.weight True
+	bertmodel.encoder.layer.3.attention.output.dense.bias True
+	bertmodel.encoder.layer.3.attention.output.LayerNorm.weight True
+	bertmodel.encoder.layer.3.attention.output.LayerNorm.bias True
+	bertmodel.encoder.layer.3.intermediate.dense.weight True
+	bertmodel.encoder.layer.3.intermediate.dense.bias True
+	bertmodel.encoder.layer.3.output.dense.weight True
+	bertmodel.encoder.layer.3.output.dense.bias True
+	bertmodel.encoder.layer.3.output.LayerNorm.weight True
+	bertmodel.encoder.layer.3.output.LayerNorm.bias True
+	bertmodel.encoder.layer.4.attention.self.query.weight True
+	bertmodel.encoder.layer.4.attention.self.query.bias True
+	bertmodel.encoder.layer.4.attention.self.key.weight True
+	bertmodel.encoder.layer.4.attention.self.key.bias True
+	bertmodel.encoder.layer.4.attention.self.value.weight True
+	bertmodel.encoder.layer.4.attention.self.value.bias True
+	bertmodel.encoder.layer.4.attention.output.dense.weight True
+	bertmodel.encoder.layer.4.attention.output.dense.bias True
+	bertmodel.encoder.layer.4.attention.output.LayerNorm.weight True
+	bertmodel.encoder.layer.4.attention.output.LayerNorm.bias True
+	bertmodel.encoder.layer.4.intermediate.dense.weight True
+	bertmodel.encoder.layer.4.intermediate.dense.bias True
+	bertmodel.encoder.layer.4.output.dense.weight True
+	bertmodel.encoder.layer.4.output.dense.bias True
+	bertmodel.encoder.layer.4.output.LayerNorm.weight True
+	bertmodel.encoder.layer.4.output.LayerNorm.bias True
+	bertmodel.encoder.layer.5.attention.self.query.weight True
+	bertmodel.encoder.layer.5.attention.self.query.bias True
+	bertmodel.encoder.layer.5.attention.self.key.weight True
+	bertmodel.encoder.layer.5.attention.self.key.bias True
+	bertmodel.encoder.layer.5.attention.self.value.weight True
+	bertmodel.encoder.layer.5.attention.self.value.bias True
+	bertmodel.encoder.layer.5.attention.output.dense.weight True
+	bertmodel.encoder.layer.5.attention.output.dense.bias True
+	bertmodel.encoder.layer.5.attention.output.LayerNorm.weight True
+	bertmodel.encoder.layer.5.attention.output.LayerNorm.bias True
+	bertmodel.encoder.layer.5.intermediate.dense.weight True
+	bertmodel.encoder.layer.5.intermediate.dense.bias True
+	bertmodel.encoder.layer.5.output.dense.weight True
+	bertmodel.encoder.layer.5.output.dense.bias True
+	bertmodel.encoder.layer.5.output.LayerNorm.weight True
+	bertmodel.encoder.layer.5.output.LayerNorm.bias True
+	bertmodel.encoder.layer.6.attention.self.query.weight True
+	bertmodel.encoder.layer.6.attention.self.query.bias True
+	bertmodel.encoder.layer.6.attention.self.key.weight True
+	bertmodel.encoder.layer.6.attention.self.key.bias True
+	bertmodel.encoder.layer.6.attention.self.value.weight True
+	bertmodel.encoder.layer.6.attention.self.value.bias True
+	bertmodel.encoder.layer.6.attention.output.dense.weight True
+	bertmodel.encoder.layer.6.attention.output.dense.bias True
+	bertmodel.encoder.layer.6.attention.output.LayerNorm.weight True
+	bertmodel.encoder.layer.6.attention.output.LayerNorm.bias True
+	bertmodel.encoder.layer.6.intermediate.dense.weight True
+	bertmodel.encoder.layer.6.intermediate.dense.bias True
+	bertmodel.encoder.layer.6.output.dense.weight True
+	bertmodel.encoder.layer.6.output.dense.bias True
+	bertmodel.encoder.layer.6.output.LayerNorm.weight True
+	bertmodel.encoder.layer.6.output.LayerNorm.bias True
+	bertmodel.encoder.layer.7.attention.self.query.weight True
+	bertmodel.encoder.layer.7.attention.self.query.bias True
+	bertmodel.encoder.layer.7.attention.self.key.weight True
+	bertmodel.encoder.layer.7.attention.self.key.bias True
+	bertmodel.encoder.layer.7.attention.self.value.weight True
+	bertmodel.encoder.layer.7.attention.self.value.bias True
+	bertmodel.encoder.layer.7.attention.output.dense.weight True
+	bertmodel.encoder.layer.7.attention.output.dense.bias True
+	bertmodel.encoder.layer.7.attention.output.LayerNorm.weight True
+	bertmodel.encoder.layer.7.attention.output.LayerNorm.biasTruncation was not explicitely activated but `max_length` is provided a specific value, please use `truncation=True` to explicitely truncate examples to max length. Defaulting to 'longest_first' truncation strategy. If you encode pairs of sequences (GLUE-style) with the tokenizer you can select this strategy more precisely by providing a specific strategy to `truncation`.
+/home/yingting/anaconda3/envs/misa/lib/python3.7/site-packages/transformers/tokenization_utils_base.py:1944: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+  FutureWarning,
+/home/yingting/anaconda3/envs/misa/lib/python3.7/site-packages/transformers/tokenization_utils_base.py:1944: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+  FutureWarning,
+/home/yingting/anaconda3/envs/misa/lib/python3.7/site-packages/transformers/tokenization_utils_base.py:1944: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+  FutureWarning,
+/home/yingting/anaconda3/envs/misa/lib/python3.7/site-packages/transformers/tokenization_utils_base.py:1944: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+  FutureWarning,
+/home/yingting/anaconda3/envs/misa/lib/python3.7/site-packages/transformers/tokenization_utils_base.py:1944: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+  FutureWarning,
+/home/yingting/anaconda3/envs/misa/lib/python3.7/site-packages/transformers/tokenization_utils_base.py:1944: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+  FutureWarning,
+/home/yingting/anaconda3/envs/misa/lib/python3.7/site-packages/transformers/tokenization_utils_base.py:1944: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+  FutureWarning,
+/home/yingting/anaconda3/envs/misa/lib/python3.7/site-packages/transformers/tokenization_utils_base.py:1944: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+  FutureWarning,
+/home/yingting/anaconda3/envs/misa/lib/python3.7/site-packages/transformers/tokenization_utils_base.py:1944: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+  FutureWarning,
+/home/yingting/anaconda3/envs/misa/lib/python3.7/site-packages/transformers/tokenization_utils_base.py:1944: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+  FutureWarning,
+/home/yingting/anaconda3/envs/misa/lib/python3.7/site-packages/transformers/tokenization_utils_base.py:1944: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+  FutureWarning,
+/home/yingting/anaconda3/envs/misa/lib/python3.7/site-packages/transformers/tokenization_utils_base.py:1944: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+  FutureWarning,
+/home/yingting/anaconda3/envs/misa/lib/python3.7/site-packages/transformers/tokenization_utils_base.py:1944: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+  FutureWarning,
+/home/yingting/anaconda3/envs/misa/lib/python3.7/site-packages/transformers/tokenization_utils_base.py:1944: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+  FutureWarning,
+/home/yingting/anaconda3/envs/misa/lib/python3.7/site-packages/transformers/tokenization_utils_base.py:1944: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+  FutureWarning,
+ True
+	bertmodel.encoder.layer.7.intermediate.dense.weight True
+	bertmodel.encoder.layer.7.intermediate.dense.bias True
+	bertmodel.encoder.layer.7.output.dense.weight True
+	bertmodel.encoder.layer.7.output.dense.bias True
+	bertmodel.encoder.layer.7.output.LayerNorm.weight True
+	bertmodel.encoder.layer.7.output.LayerNorm.bias True
+	bertmodel.encoder.layer.8.attention.self.query.weight True
+	bertmodel.encoder.layer.8.attention.self.query.bias True
+	bertmodel.encoder.layer.8.attention.self.key.weight True
+	bertmodel.encoder.layer.8.attention.self.key.bias True
+	bertmodel.encoder.layer.8.attention.self.value.weight True
+	bertmodel.encoder.layer.8.attention.self.value.bias True
+	bertmodel.encoder.layer.8.attention.output.dense.weight True
+	bertmodel.encoder.layer.8.attention.output.dense.bias True
+	bertmodel.encoder.layer.8.attention.output.LayerNorm.weight True
+	bertmodel.encoder.layer.8.attention.output.LayerNorm.bias True
+	bertmodel.encoder.layer.8.intermediate.dense.weight True
+	bertmodel.encoder.layer.8.intermediate.dense.bias True
+	bertmodel.encoder.layer.8.output.dense.weight True
+	bertmodel.encoder.layer.8.output.dense.bias True
+	bertmodel.encoder.layer.8.output.LayerNorm.weight True
+	bertmodel.encoder.layer.8.output.LayerNorm.bias True
+	bertmodel.encoder.layer.9.attention.self.query.weight True
+	bertmodel.encoder.layer.9.attention.self.query.bias True
+	bertmodel.encoder.layer.9.attention.self.key.weight True
+	bertmodel.encoder.layer.9.attention.self.key.bias True
+	bertmodel.encoder.layer.9.attention.self.value.weight True
+	bertmodel.encoder.layer.9.attention.self.value.bias True
+	bertmodel.encoder.layer.9.attention.output.dense.weight True
+	bertmodel.encoder.layer.9.attention.output.dense.bias True
+	bertmodel.encoder.layer.9.attention.output.LayerNorm.weight True
+	bertmodel.encoder.layer.9.attention.output.LayerNorm.bias True
+	bertmodel.encoder.layer.9.intermediate.dense.weight True
+	bertmodel.encoder.layer.9.intermediate.dense.bias True
+	bertmodel.encoder.layer.9.output.dense.weight True
+	bertmodel.encoder.layer.9.output.dense.bias True
+	bertmodel.encoder.layer.9.output.LayerNorm.weight True
+	bertmodel.encoder.layer.9.output.LayerNorm.bias True
+	bertmodel.encoder.layer.10.attention.self.query.weight True
+	bertmodel.encoder.layer.10.attention.self.query.bias True
+	bertmodel.encoder.layer.10.attention.self.key.weight True
+	bertmodel.encoder.layer.10.attention.self.key.bias True
+	bertmodel.encoder.layer.10.attention.self.value.weight True
+	bertmodel.encoder.layer.10.attention.self.value.bias True
+	bertmodel.encoder.layer.10.attention.output.dense.weight True
+	bertmodel.encoder.layer.10.attention.output.dense.bias True
+	bertmodel.encoder.layer.10.attention.output.LayerNorm.weight True
+	bertmodel.encoder.layer.10.attention.output.LayerNorm.bias True
+	bertmodel.encoder.layer.10.intermediate.dense.weight True
+	bertmodel.encoder.layer.10.intermediate.dense.bias True
+	bertmodel.encoder.layer.10.output.dense.weight True
+	bertmodel.encoder.layer.10.output.dense.bias True
+	bertmodel.encoder.layer.10.output.LayerNorm.weight True
+	bertmodel.encoder.layer.10.output.LayerNorm.bias True
+	bertmodel.encoder.layer.11.attention.self.query.weight True
+	bertmodel.encoder.layer.11.attention.self.query.bias True
+	bertmodel.encoder.layer.11.attention.self.key.weight True
+	bertmodel.encoder.layer.11.attention.self.key.bias True
+	bertmodel.encoder.layer.11.attention.self.value.weight True
+	bertmodel.encoder.layer.11.attention.self.value.bias True
+	bertmodel.encoder.layer.11.attention.output.dense.weight True
+	bertmodel.encoder.layer.11.attention.output.dense.bias True
+	bertmodel.encoder.layer.11.attention.output.LayerNorm.weight True
+	bertmodel.encoder.layer.11.attention.output.LayerNorm.bias True
+	bertmodel.encoder.layer.11.intermediate.dense.weight True
+	bertmodel.encoder.layer.11.intermediate.dense.bias True
+	bertmodel.encoder.layer.11.output.dense.weight True
+	bertmodel.encoder.layer.11.output.dense.bias True
+	bertmodel.encoder.layer.11.output.LayerNorm.weight True
+	bertmodel.encoder.layer.11.output.LayerNorm.bias True
+	bertmodel.pooler.dense.weight True
+	bertmodel.pooler.dense.bias True
+	vrnn1.weight_ih_l0 True
+	vrnn1.weight_hh_l0 True
+	vrnn1.bias_ih_l0 True
+	vrnn1.bias_hh_l0 True
+	vrnn1.weight_ih_l0_reverse True
+	vrnn1.weight_hh_l0_reverse True
+	vrnn1.bias_ih_l0_reverse True
+	vrnn1.bias_hh_l0_reverse True
+	vrnn2.weight_ih_l0 True
+	vrnn2.weight_hh_l0 True
+	vrnn2.bias_ih_l0 True
+	vrnn2.bias_hh_l0 True
+	vrnn2.weight_ih_l0_reverse True
+	vrnn2.weight_hh_l0_reverse True
+	vrnn2.bias_ih_l0_reverse True
+	vrnn2.bias_hh_l0_reverse True
+	arnn1.weight_ih_l0 True
+	arnn1.weight_hh_l0 True
+	arnn1.bias_ih_l0 True
+	arnn1.bias_hh_l0 True
+	arnn1.weight_ih_l0_reverse True
+	arnn1.weight_hh_l0_reverse True
+	arnn1.bias_ih_l0_reverse True
+	arnn1.bias_hh_l0_reverse True
+	arnn2.weight_ih_l0 True
+	arnn2.weight_hh_l0 True
+	arnn2.bias_ih_l0 True
+	arnn2.bias_hh_l0 True
+	arnn2.weight_ih_l0_reverse True
+	arnn2.weight_hh_l0_reverse True
+	arnn2.bias_ih_l0_reverse True
+	arnn2.bias_hh_l0_reverse True
+	project_t.project_t.weight True
+	project_t.project_t.bias True
+	project_t.project_t_layer_norm.weight True
+	project_t.project_t_layer_norm.bias True
+	project_v.project_v.weight True
+	project_v.project_v.bias True
+	project_v.project_v_layer_norm.weight True
+	project_v.project_v_layer_norm.bias True
+	project_a.project_a.weight True
+	project_a.project_a.bias True
+	project_a.project_a_layer_norm.weight True
+	project_a.project_a_layer_norm.bias True
+	private_t.private_t_1.weight True
+	private_t.private_t_1.bias True
+	private_v.private_v_1.weight True
+	private_v.private_v_1.bias True
+	private_a.private_a_3.weight True
+	private_a.private_a_3.bias True
+	shared.shared_1.weight True
+	shared.shared_1.bias True
+	recon_t.recon_t_1.weight True
+	recon_t.recon_t_1.bias True
+	recon_v.recon_v_1.weight True
+	recon_v.recon_v_1.bias True
+	recon_a.recon_a_1.weight True
+	recon_a.recon_a_1.bias True
+	sp_discriminator.sp_discriminator_layer_1.weight True
+	sp_discriminator.sp_discriminator_layer_1.bias True
+	fusion.fusion_layer_1.weight True
+	fusion.fusion_layer_1.bias True
+	fusion.fusion_layer_3.weight True
+	fusion.fusion_layer_3.bias True
+	tlayer_norm.weight True
+	tlayer_norm.bias True
+	vlayer_norm.weight True
+	vlayer_norm.bias True
+	alayer_norm.weight True
+	alayer_norm.bias True
+	transformer_encoder.layers.0.self_attn.in_proj_weight True
+	transformer_encoder.layers.0.self_attn.in_proj_bias True
+	transformer_encoder.layers.0.self_attn.out_proj.weight True
+	transformer_encoder.layers.0.self_attn.out_proj.bias True
+	transformer_encoder.layers.0.linear1.weight True
+	transformer_encoder.layers.0.linear1.bias True
+	transformer_encoder.layers.0.linear2.weight True
+	transformer_encoder.layers.0.linear2.bias True
+	transformer_encoder.layers.0.norm1.weight True
+	transformer_encoder.layers.0.norm1.bias True
+	transformer_encoder.layers.0.norm2.weight True
+	transformer_encoder.layers.0.norm2.bias True
+Done! It took 5.3 secs
+
+Training Start!
+Training loss: 3.9071
+Current patience: 6, current trial: 1.
+Found new best model on dev set!
+Training loss: 2.4591
+Current patience: 6, current trial: 1.
+Training loss: 1.8081
+Current patience: 5, current trial: 1.
+Found new best model on dev set!
+Training loss: 1.4171
+Current patience: 6, current trial: 1.
+Training loss: 1.2137
+Current patience: 5, current trial: 1.
+Training loss: 1.0083
+Current patience: 4, current trial: 1.
+Training loss: 0.9525
+Current patience: 3, current trial: 1.
+Training loss: 0.8008
+Current patience: 2, current trial: 1.
+Found new best model on dev set!
+Training loss: 0.6933
+Current patience: 6, current trial: 1.
+Found new best model on dev set!
+Training loss: 0.6231
+Current patience: 6, current trial: 1.
+Training loss: 0.5677
+Current patience: 5, current trial: 1.
+Training loss: 0.559
+Current patience: 4, current trial: 1.
+Training loss: 0.6301
+Current patience: 3, current trial: 1.
+Training loss: 0.4793
+Current patience: 2, current trial: 1.
+Training loss: 0.4258
+Current patience: 1, current trial: 1.
+Training loss: 0.393
+Current patience: 0, current trial: 1.
+Running out of patience, loading previous best model.
+Current learning rate: 5e-05
+Running out of patience, early stopping./home/yingting/anaconda3/envs/misa/lib/python3.7/site-packages/transformers/tokenization_utils_base.py:1944: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+  FutureWarning,
+/home/yingting/anaconda3/envs/misa/lib/python3.7/site-packages/transformers/tokenization_utils_base.py:1944: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+  FutureWarning,
+
+mae:  0.8594561
+corr:  0.727530167007793
+mult_acc:  0.39504373177842567
+Classification Report (pos/neg) :
+              precision    recall  f1-score   support
+
+       False    0.85260   0.77836   0.81379       379
+        True    0.72903   0.81588   0.77002       277
+
+    accuracy                        0.79421       656
+   macro avg    0.79082   0.79712   0.79191       656
+weighted avg    0.80042   0.79421   0.79531       656
+
+Accuracy (pos/neg)  0.7942073170731707
+Classification Report (non-neg/neg) :
+              precision    recall  f1-score   support
+
+       False    0.81044   0.77836   0.79408       379
+        True    0.73913   0.77524   0.75676       307
+
+    accuracy                        0.77697       686
+   macro avg    0.77478   0.77680   0.77542       686
+weighted avg    0.77853   0.77697   0.77738       686
+
+Accuracy (non-neg/neg)  0.7769679300291545
+Done! It took 1.7e+02 secs
+

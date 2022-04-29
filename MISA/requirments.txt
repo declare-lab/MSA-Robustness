@@ -1,0 +1,14 @@
+
+conda create --name misa python==3.7.5
+conda activate misa
+
+pip install torch==1.3.1
+pip install transformers==2.5.1 gensim==3.8.1
+pip install -U scikit-learn scipy matplotlib
+pip install ipywidgets
+
+git clone https://github.com/A2Zadeh/CMU-MultimodalSDK.git
+export PYTHONPATH="/path/to/cloned/directory/CMU-MultimodalSDK:$PYTHONPATH"
+pip install h5py validators tqdm numpy argparse requests colorama
+
+

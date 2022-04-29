@@ -1,0 +1,13 @@
+conda create --name bbfn python==3.7.5
+conda activate bbfn
+
+pip install torch==1.7.0
+pip  install scikit-learn==0.21.3
+pip install transformers==4.0.0
+pip install ipywidgets
+
+git clone https://github.com/A2Zadeh/CMU-MultimodalSDK.git
+export PYTHONPATH="/path/to/cloned/directory/CMU-MultimodalSDK:$PYTHONPATH"
+pip install h5py validators tqdm numpy argparse requests colorama
+
+

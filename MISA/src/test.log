@@ -1,0 +1,31 @@
+nohup: ignoring input
+Truncation was not explicitely activated but `max_length` is provided a specific value, please use `truncation=True` to explicitely truncate examples to max length. Defaulting to 'longest_first' truncation strategy. If you encode pairs of sequences (GLUE-style) with the tokenizer you can select this strategy more precisely by providing a specific strategy to `truncation`.
+/home/yingting/anaconda3/envs/misa/lib/python3.7/site-packages/transformers/tokenization_utils_base.py:1944: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+  FutureWarning,
+mosi
+test
+mae:  0.8594561
+corr:  0.727530167007793
+mult_acc:  0.39504373177842567
+Classification Report (pos/neg) :
+              precision    recall  f1-score   support
+
+       False    0.85260   0.77836   0.81379       379
+        True    0.72903   0.81588   0.77002       277
+
+    accuracy                        0.79421       656
+   macro avg    0.79082   0.79712   0.79191       656
+weighted avg    0.80042   0.79421   0.79531       656
+
+Accuracy (pos/neg)  0.7942073170731707
+Classification Report (non-neg/neg) :
+              precision    recall  f1-score   support
+
+       False    0.81044   0.77836   0.79408       379
+        True    0.73913   0.77524   0.75676       307
+
+    accuracy                        0.77697       686
+   macro avg    0.77478   0.77680   0.77542       686
+weighted avg    0.77853   0.77697   0.77738       686
+
+Accuracy (non-neg/neg)  0.7769679300291545
