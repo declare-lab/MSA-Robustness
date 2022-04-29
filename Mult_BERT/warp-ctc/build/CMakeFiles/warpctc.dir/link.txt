@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -O2 -fopenmp -std=c++14 -O2  -shared -Wl,-soname,libwarpctc.so -o libwarpctc.so CMakeFiles/warpctc.dir/src/ctc_entrypoint.cpp.o 

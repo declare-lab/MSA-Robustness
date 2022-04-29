@@ -1,0 +1,1 @@
+/usr/bin/c++   -O2 -fopenmp -std=c++14 -O2  -rdynamic CMakeFiles/test_cpu.dir/tests/test_cpu.cpp.o CMakeFiles/test_cpu.dir/tests/random.cpp.o  -o test_cpu libwarpctc.so 
