@@ -15,11 +15,17 @@ Take MISA as an example
 3. Set ```word_emb_path``` in ```config.py``` to [glove file](http://nlp.stanford.edu/data/glove.840B.300d.zip).
 4. Set ```sdk_dir``` to the path of CMU-MultimodalSDK.
 3. ```bash run.sh``` When doing robustness training, run the "TRAIN" section of run.sh, and when doing diagnostic tests, run the "TEST" section of run.sh.
+
 ```--train_method``` means the robustness training method, one of ```{missing, g_noise, hybird}```, ```missing``` means set to zero noise, ```g_noise``` means set to Gaussian Noise, ```hybird``` means the data of train_changed_pct is set to zero_noise, and the data of train_changed_pct is set to Gaussian_Noise.
+
 ```--train_changed_modal``` means the modality of change during training, one of ```{language, video, audio}```.
+
 ```--train_changed_pct``` means the percentage of change during training, can set between ```0~1```.
+
 ```--test_method``` means the diagnostic tests method, one of ```{missing, g_noise, hybird}```, ```missing``` means set to zero noise, ```g_noise``` means set to Gaussian Noise, ```hybird``` means the data of test_changed_pct is set to zero_noise, and the data of test_changed_pct is set to Gaussian_Noise.
+
 ```--test_changed_modal``` means the modality of change during testing, one of ```{language, video, audio}```.
+
 ```--train_changed_pct``` means the percentage of change during testing, can set between ```0~1```.
 
 
