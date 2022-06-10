@@ -28,4 +28,16 @@ Take MISA as an example
 
 &ensp;&ensp;&ensp;&ensp;```--train_changed_pct``` means the percentage of change during testing, can set between ```0~1```.
 
+# Citation
+
+```
+@article{hazarika2022analyzing,
+  title={Analyzing Modality Robustness in Multimodal Sentiment Analysis},
+  author={Hazarika, Devamanyu and Li, Yingting and Cheng, Bo and Zhao, Shuai and Zimmermann, Roger and Poria, Soujanya},
+  publisher={NAACL 2022},
+  year={2022}
+}
+
+```
+
 
