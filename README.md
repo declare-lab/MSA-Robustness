@@ -1,5 +1,5 @@
 # MSA-Robustness
-NAACL 2022 paper on [Analyzing Modality Robustness in Multimodal Sentiment Analysis](https://github.com/declare-lab/MSA-Robustness/raw/main/Modality_Analysis_NAACL2022_FINAL.pdf)
+NAACL 2022 paper on [Analyzing Modality Robustness in Multimodal Sentiment Analysis](https://arxiv.org/pdf/2205.15465.pdf)
 
 # Setup the environment
 Configure the environment of different models respectively, configure the corresponding environment according to the requirements.txt in the model directory.
