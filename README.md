@@ -34,7 +34,7 @@ Take MISA as an example
 @article{hazarika2022analyzing,
   title={Analyzing Modality Robustness in Multimodal Sentiment Analysis},
   author={Hazarika, Devamanyu and Li, Yingting and Cheng, Bo and Zhao, Shuai and Zimmermann, Roger and Poria, Soujanya},
-  publisher={NAACL 2022},
+  publisher={NAACL},
   year={2022}
 }
 
